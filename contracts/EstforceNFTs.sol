@@ -37,7 +37,7 @@ contract EstforceNFTs is ERC1155, Ownable, ERC1155Pausable, ERC1155Supply, IERC2
         ERC1155("")
         Ownable(initialOwner)
     {
-        baseUri = "ipfs://QmTcRETcvNQME5ofdTruDXKR6hakoFTfs7i4oc56vgXSE7/";
+        baseUri = "ipfs://QmZWZEsLNAKiGWexDMHoqFkxhDrXXNQbtMsL3XiobnBbEM/";
 
         _royaltyFee = 30; // 3%
         _royaltyReceiver = initialOwner;
